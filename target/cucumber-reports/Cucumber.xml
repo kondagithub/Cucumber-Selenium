@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="59.019588">
+    <testcase classname="Login Action" name="Perform Succcesfull Login" time="26.347494">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+When User accepted cookies..................................................passed
+And User enters "kondareddy.a@gmail.com" and "Password@7" and performed login action.passed
+Then User login is successful...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logout Action" name="Perform Logout Action" time="32.672094">
+        <system-out><![CDATA[Given User is on home page..................................................passed
+When User performed logout..................................................passed
+Then User logout is successful..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

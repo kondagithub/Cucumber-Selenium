@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 635900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFirstScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 206700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Perform Succcesfull Login",
+        "description": "",
+        "id": "login-action;perform-succcesfull-login",
+        "after": [
+          {
+            "result": {
+              "duration": 150200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12062566200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginActionSteps.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2168263300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User accepted cookies",
+            "match": {
+              "location": "LoginActionSteps.user_accepted_cookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6401649900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"kondareddy.a@gmail.com\" and \"Password@7\" and performed login action",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kondareddy.a@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Password@7",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginActionSteps.user_enters_and_and_performed_login_action(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5714021700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User login is successful",
+            "match": {
+              "location": "LoginActionSteps.user_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SMOKE,"
+          },
+          {
+            "line": 4,
+            "name": "@FIRST"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "LoginAction.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SMOKE"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 273900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Perform Logout Action",
+        "description": "",
+        "id": "logout-action;perform-logout-action",
+        "after": [
+          {
+            "result": {
+              "duration": 60600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterLastScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17751113200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "LogoutActionSteps.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9139317300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User performed logout",
+            "match": {
+              "location": "LogoutActionSteps.user_performed_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5781271600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logout is successful",
+            "match": {
+              "location": "LogoutActionSteps.user_logout_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SMOKE,"
+          },
+          {
+            "line": 4,
+            "name": "@LAST"
+          }
+        ]
+      }
+    ],
+    "name": "Logout Action",
+    "description": "",
+    "id": "logout-action",
+    "keyword": "Feature",
+    "uri": "LogoutAction.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SMOKE"
+      }
+    ]
+  }
+]
